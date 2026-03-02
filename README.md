@@ -1,7 +1,7 @@
-====================================================================
+
             TITANIC DATASET ANALYSIS
         USING PANDAS SERIES AND DATAFRAMES
-====================================================================
+
 
 
 PROJECT OBJECTIVE
@@ -31,14 +31,14 @@ PROJECT WORKFLOW
 ====================================================================
 
 
-1️⃣ DATA IMPORT
+1️.DATA IMPORT
 --------------------------------------------------------------------
 
 Imported dataset using pd.read_csv()
 
 
 
-2️⃣ SERIES AND DATAFRAME CREATION
+2️.SERIES AND DATAFRAME CREATION
 --------------------------------------------------------------------
 
 Created DataFrame from dataset
@@ -50,7 +50,7 @@ Extracted Series for:
 
 
 
-3️⃣ DATA INSPECTION
+3️. DATA INSPECTION
 --------------------------------------------------------------------
 
 Used:
@@ -60,7 +60,7 @@ Used:
 
 
 
-4️⃣ HANDLING MISSING DATA
+4️. HANDLING MISSING DATA
 --------------------------------------------------------------------
 
 Identified missing values using isnull()
@@ -73,7 +73,7 @@ Dropped Cabin column (too many missing values)
 
 
 
-5️⃣ INDEXING AND SLICING
+5️. INDEXING AND SLICING
 --------------------------------------------------------------------
 
 Used:
@@ -84,7 +84,7 @@ Extracted selected columns for analysis
 
 
 
-6️⃣ RENAMING AND RESHAPING
+6️. RENAMING AND RESHAPING
 --------------------------------------------------------------------
 
 Renamed column:
@@ -94,7 +94,7 @@ Used pivot_table() for structured analysis
 
 
 
-7️⃣ FILTERING AND SORTING
+7️. FILTERING AND SORTING
 --------------------------------------------------------------------
 
 Filtered passengers based on:
@@ -110,7 +110,7 @@ Sorted data by:
 
 
 
-8️⃣ GROUPING AND AGGREGATION
+8️. GROUPING AND AGGREGATION
 --------------------------------------------------------------------
 
 Performed analysis using groupby():
@@ -121,7 +121,7 @@ Performed analysis using groupby():
 
 
 
-9️⃣ MERGING, JOINING, AND CONCATENATION
+9️. MERGING, JOINING, AND CONCATENATION
 --------------------------------------------------------------------
 
 Created additional DataFrame
@@ -132,7 +132,7 @@ Applied:
 
 
 
-🔟 CALCULATIONS AND INSIGHTS
+10. CALCULATIONS AND INSIGHTS
 --------------------------------------------------------------------
 
 Calculated:
