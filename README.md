@@ -1,76 +1,156 @@
-**Titanic Dataset Analysis Using Pandas Series and DataFrames**
+====================================================================
+            TITANIC DATASET ANALYSIS
+        USING PANDAS SERIES AND DATAFRAMES
+====================================================================
 
-**Project Objective**
-The objective of this project is to analyze the Titanic passenger dataset using the Pandas library. Students will apply core Pandas concepts such as Series and DataFrames, data cleaning, indexing, filtering, sorting, grouping, merging, and importing/exporting data to extract meaningful insights about passenger survival patterns.
 
-**Technologies Used**
+PROJECT OBJECTIVE
+--------------------------------------------------------------------
+
+The objective of this project is to analyze the Titanic passenger
+dataset using the Pandas library.
+
+Students will apply core Pandas concepts such as Series and
+DataFrames, data cleaning, indexing, filtering, sorting,
+grouping, merging, and importing/exporting data to extract
+meaningful insights about passenger survival patterns.
+
+
+
+TECHNOLOGIES USED
+--------------------------------------------------------------------
+
 Python
 Pandas
 NumPy
 Jupyter Notebook / Google Colab
 
-**Project Workflow**
-**1️⃣ Data Import**
+
+
+PROJECT WORKFLOW
+====================================================================
+
+
+1️⃣ DATA IMPORT
+--------------------------------------------------------------------
+
 Imported dataset using pd.read_csv()
 
-**2️⃣ Series and DataFrame Creation**
+
+
+2️⃣ SERIES AND DATAFRAME CREATION
+--------------------------------------------------------------------
+
 Created DataFrame from dataset
-Extracted Series for Age, Fare, and Survived columns
 
-**3️⃣ Data Inspection**
+Extracted Series for:
+- Age
+- Fare
+- Survived
+
+
+
+3️⃣ DATA INSPECTION
+--------------------------------------------------------------------
+
 Used:
-head()
-info()
-describe()
+- head()
+- info()
+- describe()
 
-**4️⃣ Handling Missing Data**
+
+
+4️⃣ HANDLING MISSING DATA
+--------------------------------------------------------------------
+
 Identified missing values using isnull()
+
 Filled missing values:
-Age → Mean
-Embarked → Mode
+- Age → Mean
+- Embarked → Mode
+
 Dropped Cabin column (too many missing values)
 
-**5️⃣ Indexing and Slicing**
+
+
+5️⃣ INDEXING AND SLICING
+--------------------------------------------------------------------
+
 Used:
-.loc[]
-.iloc[]
-Extracted selected columns
+- .loc[]
+- .iloc[]
 
-**6️⃣ Renaming and Reshaping**
-Renamed column Sex → Gender
-Used pivot_table() for analysis
+Extracted selected columns for analysis
 
-**7️⃣ Filtering and Sorting**
+
+
+6️⃣ RENAMING AND RESHAPING
+--------------------------------------------------------------------
+
+Renamed column:
+Sex → Gender
+
+Used pivot_table() for structured analysis
+
+
+
+7️⃣ FILTERING AND SORTING
+--------------------------------------------------------------------
+
 Filtered passengers based on:
-Age > 30
-Fare > 50
-Female passengers who survived
+
+- Age > 30
+- Fare > 50
+- Female passengers who survived
+
 Sorted data by:
-Fare
-Age
-Survival status
+- Fare
+- Age
+- Survival status
 
-**8️⃣ Grouping and Aggregation**
+
+
+8️⃣ GROUPING AND AGGREGATION
+--------------------------------------------------------------------
+
 Performed analysis using groupby():
-Survival rate by Gender
-Average Age by Passenger Class
-Survival count by Embarked location
 
-**9️⃣ Merging, Joining, and Concatenation**
+- Survival rate by Gender
+- Average Age by Passenger Class
+- Survival count by Embarked location
+
+
+
+9️⃣ MERGING, JOINING, AND CONCATENATION
+--------------------------------------------------------------------
+
 Created additional DataFrame
+
 Applied:
-merge()
-concat()
+- merge()
+- concat()
 
-**🔟 Calculations and Insights**
+
+
+🔟 CALCULATIONS AND INSIGHTS
+--------------------------------------------------------------------
+
 Calculated:
-Average age of survivors vs non-survivors
-Highest and lowest fare paid
-Overall survival percentage
 
-**Learning Outcomes**
+- Average age of survivors vs non-survivors
+- Highest and lowest fare paid
+- Overall survival percentage
+
+
+
+LEARNING OUTCOMES
+====================================================================
+
 After completing this project, students will understand:
-Practical implementation of Pandas
-Real-world dataset cleaning
-Data analysis workflow
-Extracting meaningful insights from structured data
+
+- Practical implementation of Pandas
+- Real-world dataset cleaning
+- Data analysis workflow
+- Extracting meaningful insights from structured data
+
+====================================================================
